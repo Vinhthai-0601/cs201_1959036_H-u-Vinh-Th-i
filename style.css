@@ -7,6 +7,15 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+.currency {
+    display: flex;
+}
+
+.currency h4 {
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
 li {
     list-style: none;
 }
@@ -52,7 +61,7 @@ a:hover {
 }
 
 .col-md-4 img {
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     height: 100%;
     filter: drop-shadow(2px 4px 6px lightgrey);
@@ -84,6 +93,11 @@ i.text-center.fa.fa-car {
     column-gap: 10px;
 }
 
+::before {
+    padding: 10px;
+}
+
+
 .Lastest.Posts {
     padding: 50px 100px;
 }
@@ -94,11 +108,36 @@ i.text-center.fa.fa-car {
     filter: drop-shadow(2px 4px 6px lightgrey);
 }
 
+button.btn-time {
+    background-color: skyblue;
+    border-radius: 7px;
+    border: none;
+    filter: drop-shadow(2px 4px 6px grey);
+    font-size: 20px;
+    padding: 5px;
+}
+
 .Manufacturers {
     padding: 30px 60px;
 }
+
+.row img {
+    filter: drop-shadow(2px 4px 6px grey);
+}
+
+.btn-go {
+    display: flex;
+    padding: 5px;
+}
+
+input[type="search"] {
+    border-radius: 7px;
+    margin-right: 10px;
+    width: 100%;
+}
 .mainfooter{
   color:skyblue;
+  font-size: 20px;
 }
 footer{
   color: black;
